@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078595526025",
+    "project_id": "eyedrug-d7b66",
+    "storage_bucket": "eyedrug-d7b66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078595526025:android:7234579fb01ecaf9d35558",
+        "android_client_info": {
+          "package_name": "kr.ac.sookmyung.eye_drugs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApusV85LbF22RTDj9Lr7HSNm7BHbr6kGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

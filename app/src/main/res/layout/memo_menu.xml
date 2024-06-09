@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:id="@+id/all_memo"
+            android:layout_width="369dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_margin="30px"
+            android:background="@drawable/button"
+            android:text="전체 메모 보기"
+            android:textAppearance="@style/button_text"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="35dp" />
+
+        <Button
+            android:id="@+id/see_voice_memo"
+            android:layout_width="369dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="음성으로\n메모 검색"
+            android:layout_margin="30px"
+            android:textAppearance="@style/button_text"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="262dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

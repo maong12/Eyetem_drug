@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/apptitle"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:background="#4300D1"
+        android:text="Eye필굿"
+        android:drawableRight="@drawable/pill__traced_"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:textAppearance="@style/button_text"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/barcode_search"
+        android:layout_width="369dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_margin="30px"
+        android:background="@drawable/button"
+        android:text="바코드/QR\n검색"
+        android:textAppearance="@style/button_text"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/sound_search"
+        android:layout_width="369dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="음성 검색"
+        android:layout_margin="30px"
+        android:textAppearance="@style/button_text"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <Button
+        android:id="@+id/memo"
+        android:layout_width="369dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_margin="30px"
+        android:background="@drawable/button"
+        android:text="메모"
+        android:textAppearance="@style/button_text"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+</LinearLayout>

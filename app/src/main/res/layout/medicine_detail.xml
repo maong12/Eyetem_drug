@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#4300D1"
+            android:textSize="30sp"
+            android:text="의약품 이름"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <Button
+            android:id="@+id/sound_memo"
+            android:layout_width="369dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="30px"
+            android:background="@drawable/button_2"
+            android:text="음성 메모"
+            android:textAppearance="@style/button_text2" />
+        <Button
+            android:id="@+id/drug_basic_information"
+            android:layout_width="369dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="30px"
+            android:background="@drawable/button_2_1"
+            android:text="기본 정보"
+            android:textAppearance="@style/button_text2_1"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reset_button"
+        android:text="취소"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_gravity="right"
+        />
+
+
+</LinearLayout>
+
+

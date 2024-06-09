@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "93583480944",
+    "firebase_url": "https://eyetemdrug-default-rtdb.firebaseio.com",
+    "project_id": "eyetemdrug",
+    "storage_bucket": "eyetemdrug.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93583480944:android:6360bfcb14beb4989a7cb5",
+        "android_client_info": {
+          "package_name": "com.example.eyetem_drug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9uufdV2WhUakxmTEyiky9YM_aEma8lJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93583480944:android:c4a3de54d258493e9a7cb5",
+        "android_client_info": {
+          "package_name": "com.example.eytem_drug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9uufdV2WhUakxmTEyiky9YM_aEma8lJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
